@@ -1,0 +1,13 @@
+{
+  "name": "limitlyss",
+  "version": "1.0.0",
+  "description": "A cryptocurrency",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Farley",
+  "license": "ISC"
+}

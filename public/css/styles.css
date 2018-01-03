@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+  background-color: SteelBlue;
+  padding-top: 100px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 65px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+}
+
+button {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: SkyBlue;
+  border-radius: 4px;
+  padding: 8px 20px;
+}
