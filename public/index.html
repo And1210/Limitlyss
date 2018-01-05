@@ -5,13 +5,19 @@
   <title>Limitlyss</title>
 
   <link rel="stylesheet" href="css/styles.css">
+  <script src="submit.js"></script>
 </head>
 <body>
   <h1 align="center">Limitlyss</h1>
-  <h2 align="center">The cryptocurrency of the future</h2>
-  <br><br>
-  <h3 align="center">Amount: <input type="number"></input></h3>
-  <h3 align="center">Email: <input type="text"></input></h3><br>
-  <h3 align="center"><button type="button">Submit</button></h3>
+  <h2 align="center">The mind-as-well-buy-it-and-see cryptocurrency</h2>
+  <h2 align="center">1 Limitlyss Coin = $0.078125 CAD</h2>
+  <br>
+  <!-- <h3 align="center"><button type="button">Submit</button></h3> -->
+  <form action="/pay" method="post" target="_top" align='center' id='form'>
+    Amount (CAD): $<input type="number" name="amount" step="0.000001"></input><br><br>
+    Email: <input type="text" name="email"></input><br><br>
+    <input type="submit" value="Buy Now">
+    <!-- <input type="button" value="Buy Now" onclick="submitForm();"> -->
+  </form>
 </body>
 </html>

@@ -33,3 +33,19 @@ button {
   border-radius: 4px;
   padding: 8px 20px;
 }
+
+form {
+  align: center;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+}
+input[type=submit] {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #0066A2;
+  border-radius: 4px;
+  padding: 8px 20px;
+}

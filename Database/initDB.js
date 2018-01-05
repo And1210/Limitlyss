@@ -4,7 +4,7 @@ var monk = require('monk');
 var db = monk('localhost:27017/limitlyss');
 var coins = db.get('coins');
 
-var maxCoins = 16777215;
+var maxCoins = 3349359;
 var count = 0;
 
 console.log("Beginning generation...");
